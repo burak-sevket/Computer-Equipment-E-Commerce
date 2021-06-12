@@ -1,0 +1,168 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    *{list-style: none; margin: 0px; padding: 0px;
+        font: 'Roboto' 14px; position: relative;
+        text-decoration: none;
+    }
+	.right{
+      float: right;
+      width: 300px;
+    }
+   .button4 {
+	   padding: 30px 15px;
+	}
+    .wrapper{
+        width: 100%;
+        max-width: 500px;
+        background: #fff;
+        border: 2px solid rgba(128, 128, 128, 0.363);
+        margin: 20px auto;
+        padding: 30px;
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    }
+    .wrapper .title{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color:#fec107;
+    }
+    .wrapper .form{
+        width: 100%;
+    }
+    .wrapper .form .input_field{
+        margin-bottom: 15px;
+        align-items: center;
+        display: flex;
+    }
+    .wrapper .form .input_field label {
+        width: 200px;
+        color: #14101075;
+        margin-right: 10px;
+        font-size: 15px;
+        margin: auto;
+        padding: 8px 10px;
+        border-radius: 3px;
+    }
+    .wrapper .form .input_field label i{
+        margin-right: 10px;
+        color: rgba(140, 14, 179, 0.603);
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .wrapper .form .input_field .input{
+        width: 100%;
+        outline: none;
+        border: 1px solid #d5dbd9;
+        font-size: 15px;
+        padding: 8px 10px;      
+        border-radius: 3px;  
+    }
+    .wrapper .form .input_field .text-area{
+        resize: none;
+        width: 100%;
+        height: 125px;
+        padding: 2%;
+    } 
+    .wrapper .form .input_field .custom_select{
+        position: relative;
+        width: 100%;
+        height:40px;
+    }
+    .wrapper .form .input_field .custom_select select{
+        border: 1px solid #d5dbd9;
+        appearance: none;
+        width: 100%;
+        border: 1px solid #d5dbd9;
+        height: 100%;
+        padding:8px ,10px;
+        border-radius: 3px;
+        outline: none;
+        
+    }
+    .wrapper .form .input_field .input:focus,
+    .wrapper .form .input_field .text-area:focus,
+    .wrapper .form .input_field select:focus{
+        border:1px solid rgba(17, 144, 202, 0.747);
+    }
+    .wrapper .form .input_field p{
+        width: 100%;
+        font-size: 14px;
+        padding-top:14px;
+        color: rgba(0, 0, 0, 0.637);
+    }
+    .wrapper .form .input_field p span{
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer;
+    }
+    .wrapper .form .input_field .check .checkmark{
+        position: absolute;
+        display: block;
+    }
+    .wrapper .form .input_field .check .checkmark{
+        content: "";
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 2px;
+        border: 2px solid;
+        border-color: transparent transparent #fff #fff;
+        transform: rotate(-45deg);
+        display: none;
+    }
+    
+    .wrapper .form .input_field .btn{
+        width: 50%;
+        margin: auto;
+        padding: 8px 10px;
+        font-size: 20px;
+        font-weight: 500;
+        border: 2px solid #07fe51;
+        background: #fff;
+        color: #07fe51;
+    }
+    .wrapper .form .input_field .btn:hover{
+        background: #07fe51;
+        color: #fff;
+    }
+    .başlık{color:rgb(8, 8, 94); font-size: 15px; font-weight: bold;}
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        outline: black;
+        background-size: 100%,50%;
+        background-color: rgba(0, 0, 0, 0.404);
+    }
+    small:hover{color: orange; cursor: pointer;}
+    .anaresim img{width: 80%;}
+    .resim img {
+        width: 30%;
+        float: top;
+    }
+    .altsekme img{width: 230px; height: 230px;}
+    section.subsliders .carousel{ height:280px; border: 2px solid rgba(0, 0, 0, 0.281); background-color: white;}
+    #subslider1 img{width: 35%; float: left; margin-top: 20px;}
+    .slide{padding-left: 0px !important;}
+    .menu li{font-size: 22px; color:rgba(53, 40, 40, 0.678);
+    }
+    .register{
+        background: linear-gradient(rgba(255, 255, 255, 0.151),gray);
+    }
+    footer ol li:hover{cursor: pointer; color: aliceblue;}
+    footer i{font-size: 1.5em;}
+    footer i:hover{cursor: pointer;}
+    .fiyat{color: rgb(7, 7, 58); font-size: 24px; font-weight: 500; margin-top: 20px;}
+    .text-muted{font-size: 14px;}
+    .stok{color: rgba(16, 252, 16, 0.719); font-size: 14px; line-height: 2px; font-weight: 600;} 
+    .ürün_model{font-size: 16px; font-weight: 600;}
+    p.ürün_model:hover{color: rgb(255, 102, 0); cursor: pointer;}
+    ol.carousel-indicators li{background-color: rgba(19, 17, 17, 0.774); padding-right: 5px; margin-right: 4px;}
+    .dark{color: rgba(0, 0, 0, 0.473);}
+    .green-blue{background: linear-gradient(#6aed66da,#15bde7);}
+    .orange-yellow{background: repeating-linear-gradient(rgb(253, 143, 0),rgb(234, 238, 0));}
+	.white-gray{background: repeating-linear-gradient(rgb(255, 255, 255),rgb(169, 169, 169));}
+    .bg-soft-black{background:#000000a4 !important;}
+    .nav-link:hover {color:rgba(255, 255, 255, 0.904) !important;}
+    .navbar-brand:hover{cursor: default;}
+
+    
